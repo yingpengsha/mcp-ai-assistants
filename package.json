@@ -2,6 +2,7 @@
   "name": "@mcp-ai-assistants/monorepo",
   "packageManager": "pnpm@10.6.2",
   "workspaces": [
-    "packages/*"
+    "client",
+    "server"
   ]
 }
