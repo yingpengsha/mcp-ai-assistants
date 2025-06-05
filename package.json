@@ -1,7 +1,17 @@
 {
   "name": "@mcp-ai-assistants/monorepo",
   "packageManager": "pnpm@10.6.2",
-  "workspaces": [
-    "packages/*"
-  ]
+  "scripts": {
+    "dev": "pnpm --filter=./packages/* --parallel run dev",
+    "build": "pnpm --filter=./packages/* run build",
+    "build:client": "pnpm --filter=./packages/client run build",
+    "build:server": "pnpm --filter=./packages/server run build",
+    "debug:server": "pnpm --filter=./packages/server run start:debug",
+    "start:prod": "node packages/server/dist/main"
+  },
+  "pnpm": {
+    "overrides": {
+      "esbuild": "0.23.1"
+    }
+  }
 }

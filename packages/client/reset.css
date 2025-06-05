@@ -1,0 +1,115 @@
+html, body {
+  min-height: 100%;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+dl,
+dd,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+select,
+textarea,
+button,
+optgroup,
+option,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.005);
+  text-rendering: optimizeLegibility;
+}
+
+input,
+select,
+textarea,
+button,
+optgroup,
+option {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1;
+}
+
+textarea,
+[type="text"],
+[type="password"],
+[type="tel"] {
+  -webkit-appearance: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-size: 100%;
+  font-weight: normal; */
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+:focus {
+  outline: 0;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+main,
+details {
+  display: block;
+}
+
+img {
+  border-style: none;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+summary {
+  display: list-item;
+}
+
+[hidden] {
+  display: none;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
